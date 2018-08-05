@@ -30,7 +30,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
 import java.util.StringJoiner;
+import java.util.Map.Entry;
 import java.util.logging.Logger;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
@@ -124,12 +126,22 @@ public class App {
 			if (myCLI.treesFile.length() == 0)
 				myApp.loadDefaultTrees();
 			for (Tree t : myApp.grammar.trees) {
+				System.out.println("---------- Tree ----------");
+				System.out.println(t.getTreeString());
 				System.out.println("---------- Terminals ----------");
 				StringJoiner joiner = new StringJoiner(", ");
 				for (String x : t.getTerminals()) {
 					joiner.add(x);
 				}
 				System.out.println(joiner.toString());
+				System.out.println("---------- C-Command Relations ----------");
+				for (int x : t.getCCommanders()) {
+					joiner = new StringJoiner(", ");
+					for (int s : t.getCCommended(x)) {
+						joiner.add(t.getSymbol4NodeID(s, true));
+					}
+					System.out.println(t.getSymbol4NodeID(x, true) + " c-commands: " + joiner.toString());
+				}
 				System.out.println("---------- CFG ----------");
 				System.out.println(t.getCFG(true));
 			}
