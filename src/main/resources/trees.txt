@@ -1,0 +1,53 @@
+
+(ROOT (S (NP (NNP USX) (NNS managers)) (VP (VBP have) (VP (VBN failed) (S (VP (TO to) (VP (VB take) (NP (JJ necessary) (NN action)) (S (VP (TO to) (VP (VB counteract) (NP (DT the) (NNS hazards)))))))))) (. .)))
+
+(ROOT (S (NP (NP (NNP Mr.) (NNP Cook)) (, ,) (NP (NP (NN chairman)) (PP (IN of) (NP (NNP Apple) (NNP Inc)))) (, ,)) (VP (VBZ is) (VP (VBG rallying) (NP (JJ other) (NNS CEOs)) (PP (TO to) (NP (DT the) (JJ anti-program) (NN trading) (NN cause))))) (. .)))
+
+(ROOT (S (NP (NP (NNP Tim) (NNP Cook)) (, ,) (NP (NP (NN chairman)) (PP (IN of) (NP (NNP Apple)))) (, ,)) (VP (VBZ is) (VP (VBG rallying) (NP (JJ other) (NNS CEOs)) (PP (TO to) (NP (DT the) (JJ anti-program) (NN trading) (NN cause))))) (. .)))
+
+(ROOT (S (NP (NP (NNP Timothy) (NNP Cook)) (, ,) (NP (NP (NN chairman)) (PP (IN of) (NP (NNP Apple) (NNP Inc.)))) (, ,)) (VP (VBZ is) (VP (VBG rallying) (NP (JJ other) (NNS CEOs)) (PP (TO to) (NP (DT the) (JJ anti-program) (NN trading) (NN cause))))) (. .)))
+
+(ROOT (S (NP (PRP I)) (VP (VBP wish) (SBAR (S (NP (NNP Steve) (NNP Jobs)) (VP (VBD were) (NP (NNP CEO))))))))
+
+(ROOT (S (NP (NNP Tim) (NNP Cook)) (VP (VBZ has) (VP (VBN required) (SBAR (IN that) (S (NP (NNP Steve) (NNP Jobs)) (VP (VB be) (ADJP (JJ present))))))) (. .))) 
+
+(ROOT (S (PP (IN In) (NP (NNP Chile))) (, ,) (NP (NP (NNS workers)) (PP (IN at) (NP (NP (CD two) (NN copper) (NNS mines)) (, ,) (NP (NNP Los) (NNP Bronces)) (CC and) (NP (NNP El) (NNP Soldado)))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBP belong) (PP (TO to) (NP (DT the) (JJ Exxon-owned) (NNP Minera) (NNP Disputada)))))) (, ,)) (NP-TMP (NN yesterday)) (VP (VBD voted) (S (VP (TO to) (VP (VB begin) (NP (DT a) (JJ full) (NN strike)) (NP-TMP (NN tomorrow)) (, ,) (NP (NP (DT an) (NN analyst)) (SBAR (S (VP (VBD said))))))))) (. .)))
+
+(ROOT (S (NP (PRP He)) (VP (VBZ has) (NP (NP (DT a) (NN point)) (SBAR (S (NP (PRP he)) (VP (VBZ wants) (S (VP (TO to) (VP (VB make))))))))) (. .)))
+
+(ROOT (S (NP (DT The) (NNP ABA)) (VP (VBZ gives) (SBAR (S (NP (NP (DT a) (JJ qualified) (NN rating)) (PP (TO to) (NP (NP (NNS nominees)) (SBAR (S (NP (PRP it)) (VP (VBZ believes))))))) (VP (MD would) (VP (VB perform) (ADVP (RB satisfactorily)) (PP (IN on) (NP (DT the) (NN bench)))))))) (. .)))
+
+(ROOT (S (PP (IN In) (NP (NNP Chile))) (, ,) (NP (NP (NNS workers)) (PP (IN at) (NP (NP (CD two) (NN copper) (NNS mines)) (, ,) (NP (NNP Los) (NNP Bronces)) (CC and) (NP (NNP El) (NNP Soldado)))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBP belong) (PP (TO to) (NP (DT the) (JJ Exxon-owned) (NNP Minera) (NNP Disputada)))))) (, ,)) (NP-TMP (NN yesterday)) (VP (VBD voted) (S (VP (TO to) (VP (VB begin) (NP (DT a) (JJ full) (NN strike)) (NP-TMP (NN tomorrow)) (, ,) (NP (NP (DT an) (NN analyst)) (SBAR (S (VP (VBD said))))))))) (. .)))
+
+(ROOT (S (NP (NP (DT Some)) (PP (IN of) (NP (DT the) (JJR bigger) (NNS ones)))) (VP (VBP have) (RB n't) (VP (VBN been) (VP (VBN absorbed) (ADVP (RB so) (RB easily))))) (. .)))
+
+(ROOT (S (NP (NNP Tim) (NNP Cook)) (VP (VBZ is) (NP (DT a) (JJ good) (NN person) (S (VP (TO to) (VP (VB know)))))) (. .)))
+
+(ROOT (S (NP (DT The) (NN competition)) (VP (VBZ has) (VP (VBN grown) (S (ADJP (RBR more) (JJ intense))))) (. .)))
+
+(ROOT (S (NP (DT The) (NNP ABA)) (VP (VBZ has) (VP (VBN given) (NP (DT a) (ADJP (VBN qualified)) (NN rating)) (PP (TO to) (NP (DT those) (NNS nominees))))) (. .)))
+
+(ROOT (S (NP (PRP She)) (VP (VBZ has) (NP (NP (JJ extensive) (NN leadership) (NN experience)) (PP (IN with) (NP (NP (DT a) (NN focus)) (PP (IN on) (NP (VBG managing) (JJ high) (NN tech) (NNS companies))))))) (. .))) 
+
+(ROOT (S (NP (NP (NNP Jim) (NNP Enzor)) (PP (IN of) (NP (NNP Atlanta)))) (VP (VBZ defends) (NP (NN program) (NN trading)) (SBAR (IN because) (S (NP (PRP he)) (VP (VBZ believes) (SBAR (IN that) (S (NP (PRP it)) (VP (MD can) (VP (VB bring) (NP (DT the) (NN market)) (ADVP (RB back) (RB up)) (PP (IN after) (NP (DT a) (NN plunge))))))))))) (. .))) 
+
+(ROOT (S (S (NP (RB Almost) (DT all) (JJ new) (NN regulation)) (VP (VBZ is) (VP (VBN introduced) (PP (IN in) (NP (NP (DT the) (NNS interests)) (PP (IN of) (S (VP (VBG protecting) (NP (DT the) (JJ little) (NN guy)))))))))) (, ,) (CC and) (S (NP (PRP he)) (ADVP (RB invariably)) (VP (VBZ is) (NP (NP (DT the) (CD one)) (ADJP (JJS least) (JJ able) (S (VP (TO to) (VP (VB cope) (PP (IN with) (NP (PRP$ its) (NNS consequences)))))))))) (. .))) 
+
+(ROOT (S (S (NP (NNP Miami) (NNPS Dolphins) (NN owner) (NNP Joe) (NNP Robbie)) (VP (VBZ disagrees))) (, ,) (CC and) (S (NP (PRP he)) (VP (MD can) (VP (VB prove) (NP (PRP it))))) (. .)))
+
+(ROOT (S (NP (NNP USX)) (VP (MD would) (VP (VB be) (ADJP (JJ worth)) (ADVP (RBR more)) (SBAR (IN if) (S (VP (VBN broken) (PRT (RP up)) (PP (IN into) (NP (UCP (NN steel) (CC and) (NN energy)) (NNS segments)))))))) (. .))) 
+
+(ROOT (S (SBAR (IN If) (S (VP (NP (PRP$ his) (NN departure) (NNS signals)) (NP (NP (DT any) (NN change)) (PP (IN in) (NP (NN strategy) (CC or) (NN change)))) (PP (IN in) (NP (NN profit) (NNS expectations)))))) (, ,) (NP (PRP I)) (VP (MD would) (VP (VB be) (ADJP (RB very) (JJ surprised)))) (. .))) 
+
+(ROOT (S (NP (DT The) (NN court)) (VP (VBZ has) (VP (VBN indicated) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (VB rule) (PP (IN on) (NP (DT the) (NN case))) (PP (IN by) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (DT the) (NN month))))))))))) (. .))) 
+
+(ROOT (S (PP (IN In) (NP (DT the) (NN classroom))) (, ,) (NP (NNS students)) (VP (VBP say) (SBAR (S (NP (NNP Mrs.) (NNP Yeargin)) (VP (VBD distinguished) (NP (PRP herself)) (PP (IN by) (NP (VBG varying) (NN teaching) (NNS approaches))))))) (. .))) 
+
+(ROOT (S (NP (NP (DT The) (NN company) (POS 's)) (NN steel) (NN division)) (VP (VBD continued) (S (VP (TO to) (VP (VB suffer) (PP (IN from) (S (NP (NP (JJ soft) (NN demand)) (PP (IN for) (NP (PRP$ its) (JJ tubular) (NNS goods)))) (VP (VBG serving) (NP (NP (DT the) (NN oil) (NN industry)) (CC and) (NP (JJ other) (NNS markets)))))))))) (. .))) 
+
+(ROOT (S (NP (DT The) (JJ black-crested) (NN bulbul)) (VP (VBD ate) (NP (DT the) (NN butterfly)) (ADVP (ADVP (RB as) (RB soon)) (SBAR (IN as) (S (NP (NNP Ms.) (NNP Catz)) (VP (VBD gave) (NP (PRP$ her)) (NP (PRP it))))))) (. .))) 
+
+(ROOT (S (NP (DT A) (NNP White) (NNP House) (NN spokesman)) (VP (VBD said) (NP-TMP (JJ last) (NN week)) (SBAR (IN that) (S (NP (DT the) (NN president)) (VP (VBZ is) (VP (VBG considering) (S (VP (VBG declaring) (SBAR (IN that) (S (NP (DT the) (NNP Constitution)) (ADVP (RB implicitly)) (VP (VBZ gives) (NP (PRP him)) (NP (NP (DT the) (NN authority)) (PP (IN for) (NP (DT a) (JJ line-item) (NN veto)))) (S (VP (TO to) (VP (VB provoke) (NP (DT a) (NN test) (NN case))))))))))))))) (. .))) 
+
+(ROOT (S (NP (NP (NNP Charles) (NNP Bradford)) (, ,) (NP (NP (DT an) (NN analyst)) (PP (IN with) (NP (NNP Merrill) (NNP Lynch) (NNP Capital) (NNP Markets)))) (, ,)) (VP (VBD said) (SBAR (S (NP (NNP USX)) (VP (MD may) (VP (VB have) (VP (VBN received) (NP (NP (NNS orders)) (VP (VBN lost) (PP (IN by) (NP (NP (NNS competitors)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN involved) (PP (IN in) (NP (NN labor) (NNS contracts))) (NP-TMP (RBR earlier) (DT this) (NN year)))))))))))))))) (. .)))
+
