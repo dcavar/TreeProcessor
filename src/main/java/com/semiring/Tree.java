@@ -55,6 +55,7 @@ public class Tree {
 	private static int countSymbols = 0;
 	// symbol with ID separator
 	private static String symbolIDSeparator = "_";
+	private static String arrowString = "->";
 
 	/**
 	 * Return an integer ID for a string representation of a symbol. This
@@ -511,11 +512,12 @@ public class Tree {
 					}
 				}
 				StringJoiner joiner = new StringJoiner(" ");
+				joiner.add(int2symbol.get(symbolref.get(r.get(0))));
+				joiner.add(arrowString);
 				for (int x : r) {
 					joiner.add(int2symbol.get(symbolref.get(x)));
 				}
-				sb.append(
-						int2symbol.get(symbolref.get(r.get(0))) + " -> " + joiner.toString() + System.lineSeparator());
+				sb.append(joiner.toString() + System.lineSeparator());
 			}
 		}
 		return sb.toString();
