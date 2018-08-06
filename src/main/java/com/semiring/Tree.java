@@ -116,9 +116,9 @@ public class Tree {
 	// for every symbol ID the value is its symbol string ID
 	private Map<Integer, Integer> symbolref;
 	// dominance relation
-	public Map<Integer, Set<Integer>> dominates;
+	private Map<Integer, Set<Integer>> dominates;
 	// c-command relation
-	public Map<Integer, Set<Integer>> ccommands;
+	private Map<Integer, Set<Integer>> ccommands;
 	// precedes relation
 	private Map<Integer, Set<Integer>> precedes;
 	// is terminal
@@ -161,15 +161,23 @@ public class Tree {
 	}
 
 	/**
-	 * Returns an Integer array of c-commanders in the tree.
+	 * Returns an Integer array of node IDs of c-commanders in the tree.
 	 * 
 	 * @return
 	 */
 	public int[] getCCommanders() {
-		// Set<Integer> keys = ccommands.keySet();
 		return ccommands.keySet().stream().mapToInt(Number::intValue).toArray();
 	}
 
+	/**
+	 * Returns an Integer array of dominator node IDs in the tree.
+	 * 
+	 * @return
+	 */
+	public int[] getDominators() {
+		return dominates.keySet().stream().mapToInt(Number::intValue).toArray();		
+	}
+	
 	/**
 	 * Asserts that x has a relation to y, where the relations are for some HashMap
 	 * like dominates, ccommands, precededs, etc.

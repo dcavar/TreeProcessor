@@ -135,7 +135,7 @@ public class App {
 				}
 				System.out.println(joiner.toString());
 				System.out.println("---------- Dominates Relations ----------");
-				System.out.println("Dominance: " + t.dominates.size());
+				System.out.println("Number of Dominance relations: " + t.getDominators().length);
 				System.out.println("---------- C-Command Relations ----------");
 				for (int x : t.getCCommanders()) {
 					joiner = new StringJoiner(", ");
