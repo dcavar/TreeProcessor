@@ -116,9 +116,9 @@ public class Tree {
 	// for every symbol ID the value is its symbol string ID
 	private Map<Integer, Integer> symbolref;
 	// dominance relation
-	private Map<Integer, Set<Integer>> dominates;
+	public Map<Integer, Set<Integer>> dominates;
 	// c-command relation
-	private Map<Integer, Set<Integer>> ccommands;
+	public Map<Integer, Set<Integer>> ccommands;
 	// precedes relation
 	private Map<Integer, Set<Integer>> precedes;
 	// is terminal
@@ -127,14 +127,14 @@ public class Tree {
 	private Set<Integer> nonterminals;
 
 	Tree() {
-		this.rules = new HashMap<>();
-		this.symbolref = new HashMap<>();
-		this.dominates = new HashMap<>();
-		this.ccommands = new HashMap<>();
-		this.precedes = new HashMap<>();
-		this.terminals = new HashSet<>();
+		this.rules        = new HashMap<>();
+		this.symbolref    = new HashMap<>();
+		this.dominates    = new HashMap<>();
+		this.ccommands    = new HashMap<>();
+		this.precedes     = new HashMap<>();
+		this.terminals    = new HashSet<>();
 		this.nonterminals = new HashSet<>();
-		this.rawTree = null;
+		this.rawTree      = null;
 	}
 
 	public String getSymbol4NodeID(int n, boolean withID) {
@@ -166,7 +166,8 @@ public class Tree {
 	 * @return
 	 */
 	public int[] getCCommanders() {
-		return this.ccommands.keySet().stream().mapToInt(Number::intValue).toArray();
+		// Set<Integer> keys = ccommands.keySet();
+		return ccommands.keySet().stream().mapToInt(Number::intValue).toArray();
 	}
 
 	/**
@@ -273,11 +274,15 @@ public class Tree {
 						List<Integer> lastList = eList.get(eList.size() - 1);
 						// add to set relations: the previous level LHS dominates this node
 						setRelation(lastList.get(0), treeID, dominates);
+						for (int i = 1; i < lastList.size(); i++) {
+							setRelation(lastList.get(i), treeID, ccommands);
+							setRelation(treeID, lastList.get(i), ccommands);
+							setRelation(lastList.get(i), treeID, precedes);
+						}
 						// add note itself to RHS
 						lastList.add(treeID);
 						rules.put(level - 1, eList);
 					}
-
 					sb.delete(0, sb.length());
 					state = State.WAITFORRHS;
 					break;
@@ -293,6 +298,7 @@ public class Tree {
 					setRelation(lastList.get(0), treeID, dominates);
 					// set all other relations
 					for (int i = 1; i < lastList.size(); i++) {
+						System.out.println("Adding more relations...");
 						setRelation(lastList.get(i), treeID, ccommands);
 						setRelation(treeID, lastList.get(i), ccommands);
 						setRelation(lastList.get(i), treeID, precedes);
