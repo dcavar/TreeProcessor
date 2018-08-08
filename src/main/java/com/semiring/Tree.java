@@ -514,8 +514,8 @@ public class Tree {
 				StringJoiner joiner = new StringJoiner(" ");
 				joiner.add(int2symbol.get(symbolref.get(r.get(0))));
 				joiner.add(arrowString);
-				for (int x : r) {
-					joiner.add(int2symbol.get(symbolref.get(x)));
+				for (int g = 1; g < r.size(); g++) {
+					joiner.add(int2symbol.get(symbolref.get(r.get(g))));
 				}
 				sb.append(joiner.toString() + System.lineSeparator());
 			}
